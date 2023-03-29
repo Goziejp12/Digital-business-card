@@ -9,7 +9,7 @@ export default function Header() {
             <h4>Frontend Developer</h4>
             <a href='jonech.tech' target='_blank'>jonech.tech</a>
             <div className='info'>
-                <a href='mailto:chigoziemaduka401@gmail.com' target='_blank' className='email'>
+                <a href='mailto:chigoziemaduka401@gmail.com' className='email'>
                     <i className="fa-solid fa-envelope"></i>
                     <p>Email</p>
                 </a>
