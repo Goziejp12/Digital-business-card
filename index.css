@@ -17,7 +17,7 @@ html, body {
     border-radius: 10px;
 }
 
-.app, header > a, .linkedin, footer .fa-brands {
+.app, header > a, .linkedin {
     color: white;
 }
 
@@ -118,4 +118,5 @@ footer {
 footer .fa-brands {
     font-size: 1.5rem;
     margin-right: 1em;
+    color: #918E9B;
 }
