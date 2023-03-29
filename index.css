@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+    background: #23252C;
+    height: fit-content;
+    width: 300px;
+    color: white;
+    border-radius: 10px;
+}
+
+header img {
+    width: 100%;
+    border: 2px solid #23252C;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+header, footer {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.563rem;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 0.8rem;
+    margin: 0 0 0.7em;
+    color: #B37162;
+}
+
+header > a {
+    font-size: 0.75rem;
+    color: white;
+    text-decoration: none;
+}
+
+header > a:hover {
+    text-decoration: underline;
+}
+
+header .info {
+    display: flex;
+    justify-content: center;
+    padding: 0 2em;
+    margin-top: 1.3em;
+    gap: 1em;
+}
+
+.email {
+    display: flex;
+    background-color: white;
+    text-decoration: none;
+    padding: 0.5em 1.3em;
+    border-radius: 5px;
+    color: #23252C;
+}
+
+.email > i {
+    align-self: center;
+    margin: 0 0.5em 0 0;
+}
+
+.email > p {
+    margin: 0;
+}
+
+.linkedin {
+    display: flex;
+    background-color: #297FE5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    align-self: center;
+    padding: 0.5em 1em;
+}
+
+.linkedin > i {
+    font-size: 1rem;
+    align-self: center;
+    margin: 0 0.5em 0 0;
+}
+
+.linkedin > p {
+    margin: 0;
+}
+
+main {
+    padding: 0 2em;
+}
+
+main h2 {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+main p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: auto;
+    background: #161619;
+    padding: 1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer .fa-brands {
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 1em;
+}
