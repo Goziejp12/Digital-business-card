@@ -1,9 +1,10 @@
 import React from 'react'
+import ProfilePhoto from './images/CJ.jpg'
 
 export default function Header() {
     return (
         <header>
-            <img src='./src/images/CJ.jpg' alt="Chigozie's photo" />
+            <img src={ProfilePhoto} alt="Chigozie's photo" />
             <h1>Maduka Chigozie</h1>
             <h4>Frontend Developer</h4>
             <a href='jonech.tech' target='_blank'>jonech.tech</a>
