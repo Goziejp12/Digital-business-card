@@ -9,14 +9,20 @@ html, body {
 }
 
 .app {
-    display: flex;
     flex-direction: column;
     margin: 1em auto;
     background: #23252C;
     height: fit-content;
     width: 300px;
-    color: white;
     border-radius: 10px;
+}
+
+.app, header > a, .linkedin, footer .fa-brands {
+    color: white;
+}
+
+.app, header .info, .email, .linkedin {
+    display: flex;
 }
 
 header img {
@@ -36,14 +42,12 @@ h1 {
 }
 
 h4 {
-    font-size: 0.8rem;
     margin: 0 0 0.7em;
     color: #B37162;
 }
 
 header > a {
     font-size: 0.75rem;
-    color: white;
     text-decoration: none;
 }
 
@@ -52,7 +56,6 @@ header > a:hover {
 }
 
 header .info {
-    display: flex;
     justify-content: center;
     padding: 0 2em;
     margin-top: 1.3em;
@@ -60,41 +63,32 @@ header .info {
 }
 
 .email {
-    display: flex;
     background-color: white;
-    text-decoration: none;
-    padding: 0.5em 1.3em;
-    border-radius: 5px;
     color: #23252C;
 }
 
-.email > i {
+.email, .linkedin {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.email > i, .linkedin > i {
     align-self: center;
     margin: 0 0.5em 0 0;
 }
 
-.email > p {
+.email > p, .linkedin > p {
     margin: 0;
 }
 
 .linkedin {
-    display: flex;
     background-color: #297FE5;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
     align-self: center;
-    padding: 0.5em 1em;
 }
 
-.linkedin > i {
+.linkedin > i, main h2 {
     font-size: 1rem;
-    align-self: center;
-    margin: 0 0.5em 0 0;
-}
-
-.linkedin > p {
-    margin: 0;
 }
 
 main {
@@ -102,12 +96,14 @@ main {
 }
 
 main h2 {
-    font-size: 1rem;
     margin-bottom: 0;
 }
 
-main p {
+main p, h4 {
     font-size: 0.8rem;
+}
+
+main p {
     line-height: 1.5;
 }
 
@@ -121,6 +117,5 @@ footer {
 
 footer .fa-brands {
     font-size: 1.5rem;
-    color: white;
     margin-right: 1em;
 }
